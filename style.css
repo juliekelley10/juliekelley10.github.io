@@ -1,3 +1,9 @@
+* { 
+	margin:0; 
+	padding:0; 
+	box-sizing:sborder-box; 
+}
+
 body {
 	background: url("images/stripes.png") repeat-x, url("images/background.jpg");
 	color: #ffffff;
@@ -5,21 +11,16 @@ body {
 	font-size: 20px;
 	margin-left: 100px;
 	margin-top: 240px;
-
-	
 }
 
-hr {color: #ff5560;
-	width: 40px;
-	margin-right:1450px;	
+hr {
+	color: #fd6e6e;
+	margin-bottom: 20px;
+	margin-right:1450px;
+	margin-top: 30px;
+	width: 60px;
 }
 
-.appStore {
-	background: url("images/btn_store.png");
-	background-repeat: no-repeat;
-	height:100px;
-}
-.invisibleLink {
-	display: block;
-	position: absolute;
+#appStore {
+	margin-top: 20px;
 }
