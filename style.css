@@ -1,0 +1,25 @@
+body {
+	background: url("images/stripes.png") repeat-x, url("images/background.jpg");
+	color: #ffffff;
+	font-family: Circular, Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	margin-left: 100px;
+	margin-top: 240px;
+
+	
+}
+
+hr {color: #ff5560;
+	width: 40px;
+	margin-right:1450px;	
+}
+
+.appStore {
+	background: url("images/btn_store.png");
+	background-repeat: no-repeat;
+	height:100px;
+}
+.invisibleLink {
+	display: block;
+	position: absolute;
+}
