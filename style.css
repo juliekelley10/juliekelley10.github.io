@@ -14,7 +14,7 @@ body {
 }
 
 hr {
-	color: #fd6e6e;
+	border: 1px #fd6e6e solid;
 	margin-bottom: 20px;
 	margin-right:1450px;
 	margin-top: 30px;
