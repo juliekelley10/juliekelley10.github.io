@@ -5,10 +5,13 @@
 }
 
 body {
-	background: url("images/stripes.png") repeat-x, url("images/background.jpg");
+	background: url("images/stripes.png") repeat-x, url("images/background.jpg") no-repeat;
+	background-size:auto, cover;
 	color: #ffffff;
 	font-family: Circular, Helvetica, Arial, sans-serif;
 	font-size: 20px;
+}
+section {
 	margin-left: 100px;
 	margin-top: 240px;
 }
