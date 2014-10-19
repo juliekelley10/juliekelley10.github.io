@@ -11,12 +11,14 @@ body {
 	font-family: Lora, serif;
 	font-size: 40px;
 	margin-right: 100px;
+	margin-top: 30px;
 	text-align: right;
 }
 h1 {
 	color: #D37474;
 	font-family: dancing script, cursive;
 	font-size: 1.62em;
+	letter-spacing: 4px;
 	margin-right: 340px;
 	text-align: right;
 }
