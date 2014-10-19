@@ -1,0 +1,19 @@
+* { 
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box; 
+}
+
+body {
+	background: url("images/CasiCieloImage.jpg") no-repeat;
+	background-size: 100%, 100%;
+	color: #ffffff;
+	font-family: Lora, serif;
+	font-size: 50px;
+}
+h1 {
+	font-family: dancing script, cursive;
+	font-size: 1.62em;
+	margin-right: 100px;
+	text-align: right;
+}
