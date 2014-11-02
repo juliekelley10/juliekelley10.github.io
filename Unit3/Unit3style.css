@@ -5,7 +5,7 @@
 }
 
 body {
-	background: url("images/stripes.png") repeat-x, url("images/background.jpg") no-repeat;
+	background: url("Unit3/Images/stripes.png") repeat-x, url("Unit3/Images/background.jpg") no-repeat;
 	background-size:auto, cover;
 	color: #ffffff;
 	font-family: Circular, Helvetica, Arial, sans-serif;
