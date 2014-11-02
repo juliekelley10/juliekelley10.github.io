@@ -1,0 +1,33 @@
+* { 
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box; 
+}
+
+body {
+	background: url("Unit4/Images/CasiCieloImage.jpg") no-repeat;
+	background-size: 100%, 100%;
+	background-size: cover;
+	background-color:#e9eef4;
+	color: #7F6C6C;
+	font-family: Lora, serif;
+	font-size: 40px;
+	/* margin-right: 100px;
+	margin-top: 30px; */
+	margin:30px 100px 0 0;
+	text-align: right;
+}
+h1 {
+	color: #D37474;
+	font-family: dancing script, cursive;
+	font-size: 1.62em;
+	letter-spacing: 4px;
+	margin-right: 340px;
+	/*text-align: right;*/
+}
+#almostHeaven {
+	font-family: dancing script, cursive;
+}
+.wrapper {
+	margin: 0 auto;
+}
