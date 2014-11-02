@@ -69,3 +69,36 @@ footer {
 	text-align: left;
 }
 
+img#JKphoto {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
+}
+
+.Album {
+	display: block;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Photo {
+	margin: 10px;
+}
+
+.Blogtitle {
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+
+.Blogentry {
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	margin-left: 120px;
+	padding: 40px;
+}
