@@ -5,12 +5,15 @@
 }
 
 #logo{
-	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 nav {
 	background-color: white;
 	display: block;
+	text-align: center;
 	margin-bottom: 50px;
 }
 
@@ -19,7 +22,7 @@ nav a {
 	font-family: 'Montserrat', serif;
 	font-size: 20px;
 	padding: 10px;
-	text-decoration: none
+	text-decoration: none;
 }
 
 a:hover {
@@ -31,6 +34,7 @@ a:active{
 }
 
 footer {
+	display: inline-block;
 	font-family: 'Montserrat', serif;
 	padding: 40px;
 	text-align: center;
