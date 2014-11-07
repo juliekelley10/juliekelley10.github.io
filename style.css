@@ -11,6 +11,7 @@ header {
 nav {
 	background-color: white;
 	display: block;
+	margin-bottom: 50px;
 }
 
 nav a {
@@ -25,55 +26,102 @@ a:hover {
 	color: #56617F;
 }
 
+a:active{
+	color: #ffffff;
+}
+
 footer {
 	font-family: 'Montserrat', serif;
 	padding: 40px;
 	text-align: center;
 }
 
-#Main {
+#Homepage {
 	background: url("Images/Columbia&K.jpg") no-repeat;
 	background-size: cover;
 	height: 700px;
 	margin-top: 40px;
 }
 
-#Quote1 {
+#Poetry {
+	display: inline-block;
+	float: left;
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
-	line-height: 150%;
-	padding-left: 140px;
-	padding-top: 150px;
-	position: absolute;
+	line-height: 170%;
+	margin-left: 140px;
+	margin-top: 150px;
 	text-align: left;
 }
 
 #Notthere {
 	color: #56617F;
+	display: inline-block;
+	float: left;
 	font-family: 'Dancing Script', script;
 	font-size: 30px;
 	font-weight: bolder;
-	padding-left: 180px;
-	padding-top: 260px;
 	position: absolute;
 	text-align: left;
 }
 
-#Quote2 {
+#Poetry2 {
+	display: inline-block;
+	float: left;
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 	line-height: 150%;
 	padding-left: 140px;
-	padding-top: 300px;
-	position:absolute;
 	text-align: left;
 }
 
-img#JKphoto {
+.Pagetitle {
+	color: #56617F;
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-size: 28px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#JKphoto {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 60px;
+}
+
+.Blogtitle {
+	color: #56617F;
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	margin-left: 50px;
+	text-align: left;
+}
+
+.Blogphoto {
+	float: right;
+	margin-right: 50px;
+	margin-left: auto;	
+	padding-left: 20px;
+}
+
+.Blogdate {
+	display: inline-block;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	margin-left: 50px;
+	text-align: left;
+}
+
+.Blogentry {
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 60px;
 }
 
 .Album {
@@ -83,24 +131,15 @@ img#JKphoto {
 	margin-right: auto;
 }
 
-.Photo {
+.Inspirationphoto {
 	display: inline-block;
 	float: left;
+	height: 400px;
+	width: 400px;
+	margin-left: 40px;
 	padding: 10px;
 }
 
-.Blogtitle {
-	display: block;
-	font-family: 'Lato', sans-serif;
-	font-size: 18px;
-	margin-left: 100px;
-	margin-top: 50px;
-}
-
-.Blogentry {
-	display: block;
-	font-family: 'Lato', sans-serif;
-	font-size: 16px;
-	margin-left: 120px;
-	padding: 40px;
+.clear {
+	clear: both;
 }
