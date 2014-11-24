@@ -103,7 +103,18 @@ a:hover {
 	width: 800px;
 }
 
-#Blog {
+.Blog {
+	clear: both;
+	display: block;
+	font-family: 'Lato', sans-serif;
+	font-size: .90em;
+	margin-bottom: 10%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 800px;
+}
+
+.Blogarchive {
 	clear: both;
 	display: block;
 	font-family: 'Lato', sans-serif;
@@ -136,7 +147,7 @@ a:hover {
 	display: block;
 	float: left;
 	height: 50%;
-	width: 50%;
+	width: 40%;
 	margin-top: 4%;
 	margin-right: 5%;
 	margin-bottom: 2%;
