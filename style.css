@@ -191,3 +191,33 @@ footer {
    height: 0; 
    clear: both;
 }
+
+@media (max-width: 800px) {
+	.Blog {
+		width: 600px;
+	}
+	
+	.Blogarchive {
+		width: 600px;
+	}
+
+	#logo {
+		display: block;
+		margin: 0 auto;
+		width: 300px;
+	}
+}
+
+@media (max-width: 400px) {
+	.Blog {
+		width: 300px;
+	}
+	.Blogarchive {
+		width: 300px;
+	}
+	#logo{
+		display: block;
+		margin: 0 auto;
+		width: 200px;
+	}
+}
