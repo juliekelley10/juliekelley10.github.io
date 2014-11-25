@@ -1,0 +1,44 @@
+@media (max-width: 800px) {
+	.Blog {
+		width: 600px;
+	}
+	
+	.Blogarchive {
+		width: 600px;
+	}
+
+	#Homepage {
+		height: 70vh;
+	}
+
+	#logo {
+		display: block;
+		margin: 0 auto;
+		width: 300px;
+	}
+}
+
+@media (max-width: 600px) {
+	#Homepage {
+		height: 70vh;
+	}
+}
+
+@media (max-width: 400px) {
+	.Blog {
+		width: 300px;
+	}
+	.Blogarchive {
+		width: 300px;
+	}
+
+	#Homepage {
+		height: 65vh;
+	}
+
+	#logo{
+		display: block;
+		margin: 0 auto;
+		width: 200px;
+	}
+}

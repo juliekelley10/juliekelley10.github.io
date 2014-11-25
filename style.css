@@ -56,7 +56,7 @@ a:hover {
 	background-size: cover;
 	clear: both;
 	display: block;
-	height: 70vh;
+	height: 90vh;
 	margin-top: 10%;
 	margin-bottom: 10%;
 }
@@ -104,14 +104,19 @@ a:hover {
 }
 
 .Blog {
-	clear: both;
 	display: block;
 	font-family: 'Lato', sans-serif;
 	font-size: .90em;
-	margin-bottom: 10%;
 	margin-right: auto;
 	margin-left: auto;
 	width: 800px;
+	clear: both;
+}
+
+article {
+	clear:both;
+	display: block;
+	float: left;
 }
 
 .Blogarchive {
@@ -146,8 +151,6 @@ a:hover {
 	clear: both;
 	display: block;
 	float: left;
-	height: 50%;
-	width: 40%;
 	margin-top: 4%;
 	margin-right: 5%;
 	margin-bottom: 2%;
@@ -161,7 +164,7 @@ figcaption {
 #Inspiration {
 	clear: both;
 	display: block;
-	margin-top: 10%;
+	margin-top: 20%;
 	margin-left: auto;
 	margin-bottom: 10%;
 	margin-right: auto;
@@ -192,32 +195,3 @@ footer {
    clear: both;
 }
 
-@media (max-width: 800px) {
-	.Blog {
-		width: 600px;
-	}
-	
-	.Blogarchive {
-		width: 600px;
-	}
-
-	#logo {
-		display: block;
-		margin: 0 auto;
-		width: 300px;
-	}
-}
-
-@media (max-width: 400px) {
-	.Blog {
-		width: 300px;
-	}
-	.Blogarchive {
-		width: 300px;
-	}
-	#logo{
-		display: block;
-		margin: 0 auto;
-		width: 200px;
-	}
-}
