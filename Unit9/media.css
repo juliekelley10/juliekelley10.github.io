@@ -7,6 +7,12 @@
 		width: 600px;
 	}
 
+	.Blogphoto {
+		clear: both;
+		display: inline-block;
+		float: left;
+	}
+
 	#Homepage {
 		height: 70vh;
 	}
@@ -22,6 +28,12 @@
 	#Homepage {
 		height: 70vh;
 	}
+
+	.Blogphoto {
+		clear: both;
+		display: inline-block;
+		float: left;
+	}
 }
 
 @media (max-width: 400px) {
@@ -30,6 +42,12 @@
 	}
 	.Blogarchive {
 		width: 300px;
+	}
+	
+	.Blogphoto {
+		clear: both;
+		display: inline-block;
+		float: left;
 	}
 
 	#Homepage {
