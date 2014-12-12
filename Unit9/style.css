@@ -3,7 +3,7 @@
 	padding:0; 
 	box-sizing:border-box; 
 }
-p+p { margin-top:1em; }
+p+p { margin-top:2em; }
 #logo{
 	display: block;
 	margin: 0 auto;
