@@ -3,7 +3,7 @@
 	padding:0; 
 	box-sizing:border-box; 
 }
-p+p { margin-top:2em; }
+p+p { margin-top:1em; }
 #logo{
 	display: block;
 	margin: 0 auto;
@@ -119,6 +119,7 @@ article {
 	clear:both;
 	display: block;
 	float: left;
+	margin-top: 2em;
 }
 
 .Blogarchive {
